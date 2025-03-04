@@ -4,7 +4,7 @@ import Topbar from './Maincomponent/Topbar';
 import Footer from './Maincomponent/Footer';
 import Home from './Components/Home';
 import Login from './Maincomponent/Login';
-import Register from './Maincomponent/register';
+import Register from './Maincomponent/Register';
 import PropertyTypecards from './Components/ProperytyTypecards';
 import Propertydetail from './Components/Propertydetail';
 import Propertyform from './Components/Propertyform';
