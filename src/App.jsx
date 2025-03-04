@@ -3,7 +3,9 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Topbar from './Maincomponent/Topbar';
 import Footer from './Maincomponent/Footer';
 import Home from './Components/Home';
-import Login from './Maincomponent/Login';
+// import Login from './Maincomponent/Login';
+import Loginn from './Maincomponent/login';  // if the actual file is lowercase 'login'
+
 import Register from './Maincomponent/Register';
 import PropertyTypecards from './Components/ProperytyTypecards';
 import Propertydetail from './Components/Propertydetail';
@@ -18,12 +20,13 @@ function App() {
   const hideTopbarFooter = location.pathname === "/login" || location.pathname === "/register";
 
   return (
+
     <div>
       {!hideTopbarFooter && <Topbar />}
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Loginn />} />
         <Route path="/register" element={<Register />} />
         <Route path="/addproperty" element={<Propertyform />} />
         {/* <Route
