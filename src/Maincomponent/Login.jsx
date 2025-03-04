@@ -3,7 +3,7 @@ import { Link ,useNavigate} from "react-router-dom";
 import { useLoginUserMutation } from "../Redux/CommonApi";
 
 
-const Login = () => {
+const Loginn = () => {
 
   const [isPasswordVisible, setPasswordVisible] = useState(false);
   const [errors, setErrors] = useState({});
@@ -185,4 +185,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Loginn;
