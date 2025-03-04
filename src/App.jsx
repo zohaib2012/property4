@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Topbar from './Maincomponent/Topbar';
 import Footer from './Maincomponent/Footer';
 import Home from './Components/Home';
-import Login from './Maincomponent/login';
+import Login from './Maincomponent/Login';
 import Register from './Maincomponent/register';
 import PropertyTypecards from './Components/ProperytyTypecards';
 import Propertydetail from './Components/Propertydetail';
